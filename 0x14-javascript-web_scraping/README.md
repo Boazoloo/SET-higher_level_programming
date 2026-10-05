@@ -22,6 +22,8 @@ This project covers reading and writing files with Node.js, making HTTP requests
 | `4-starwars_count.js` | Prints the number of movies where "Wedge Antilles" (character 18) appears |
 | `5-request_store.js` | Fetches a webpage and stores the body in a file (utf-8) |
 | `6-completed_tasks.js` | Prints the number of completed tasks per user ID |
+| `100-starwars_characters.js` | Prints all characters of a Star Wars movie, one per line (any order) |
+| `101-starwars_characters.js` | Prints all characters of a Star Wars movie in the order of the `characters` list |
 
 ## Usage
 
@@ -33,6 +35,8 @@ $ ./3-starwars_title.js 1
 $ ./4-starwars_count.js https://swapi-api.alx-tools.com/api/films
 $ ./5-request_store.js http://loripsum.net/api loripsum
 $ ./6-completed_tasks.js https://jsonplaceholder.typicode.com/todos
+$ ./100-starwars_characters.js 3
+$ ./101-starwars_characters.js 3
 ```
 
 ## Author
